@@ -1,14 +1,5 @@
 #!/bin/bash
 
-#Connecting dropbox and the syncAll folder.
-#(If dropbox folder already exists:
-#1.  Replace contents of folder in syncAll with that in dropbox.
-#    This is useful, when the dropbox folder contains up-to-date files, that were not synced with the syncAll folder for some time. An example is, when the laptop has been replaced and work has continued on the files in dropbox.
-#2. Delete the dropbox folder.
-#)
-#3. Create a symlink from a syncAll folder to dropbox, so that the files in this folder are always also on dropbox.
-#
-
 tempfile=temp.csv
 outputfile=alltransactions.csv
 
