@@ -30,18 +30,18 @@ So:
 ```
 folder
   |___ rabocardpdf2csv.sh
-  |___ alltransactions.csv (created by script, is its main output)
+  |___ alltransactions.csv   (created by script, is its main output)
   |
   |___ input
-  |      |___ overzicht rabocard november 2016.pdf
-  |      |___ overzicht rabocard december 2016.pdf
+  |      |___ overzicht rabocard november 2016.pdf   (put here by user, downloaded from bank website) 
+  |      |___ overzicht rabocard december 2016.pdf   (put here by user, downloaded from bank website)
   |      |___ ...
   |
   |___ output
-         |___ 2016-11.pdf (created by script, is identical to 'overzicht rabocard november 2016.pdf')
-         |___ 2016-11.txt (created by script, is plain-text version of 'overzicht rabocard november 2016.pdf')
-         |___ 2016-12.pdf (created by script, is identical to 'overzicht rabocard december 2016.pdf')
-         |___ 2016-12.txt (created by script, is plain-text version of 'overzicht rabocard december 2016.pdf')
+         |___ 2016-11.pdf   (created by script, is identical to 'overzicht rabocard november 2016.pdf')
+         |___ 2016-11.txt   (created by script, is plain-text version of 'overzicht rabocard november 2016.pdf')
+         |___ 2016-12.pdf   (created by script, is identical to 'overzicht rabocard december 2016.pdf')
+         |___ 2016-12.txt   (created by script, is plain-text version of 'overzicht rabocard december 2016.pdf')
  ```
 
 The program `pdftotext` is needed. On Ubuntu, it is installed with `sudo apt install pdftotext`.
