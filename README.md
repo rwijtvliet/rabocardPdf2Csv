@@ -6,6 +6,7 @@ Script to extract transaction information from Rabobank PDF bank statements into
 For 'Rabo Totaalrekening', 'Rabo Spaarrekening' etc, the Dutch bank Rabobank offers downloading the transactions as CSV files, for import into accounting software (e.g., [Gnucash](https://www.gnucash.org/)).
 
 For the Mastercard ('Rabocard') statements, however, only PDF files can be downloaded, which cannot be easily imported anywhere. Here is an example:
+
 ![pdf](pdf.png)
 
 ## The Solution
